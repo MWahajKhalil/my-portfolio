@@ -1,5 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @custom-variant dark (&:is(.dark *));
 
@@ -120,3 +123,7 @@
     @apply bg-background text-foreground;
   }
 }
+/* at the bottom */
+body { background: radial-gradient(1200px 600px at 20% 0%, #f6f6f6 0, transparent 60%); }
+
+
